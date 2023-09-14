@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffff(251, 228, 201, 0.726);
+    max-width: 1900px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #D4E5F3;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #62a7df;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 0.5em 0.5em 1em #62a7df84;
+    margin: 10px;
+    padding: 15px;
+}
+
+.menu a:hover  {
+    background-color: #ffffff;
+    color: #62a7df;
+    border-radius: 15px;
+}
+
+.banner {
+    padding: 0px;
+    margin: 0px;
+    width: 1900px;
+    max-height: 400px;
+}
+
+.introducao {
+    text-align: center;
+}
+
+.introducao p {
+    background-color: #fff;
+    margin: auto;
+    padding: 05px;
+    width: 1850px;
+    align-items: center;
+    text-shadow: 0.5em 0.5em 1em rgba(68, 68, 68, 0.362);
+    font-weight: 600;
+}
+
+h2 {
+    margin: 20px 10px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+h3 {
+    margin: 40px 30px auto;
+    padding: 10px;
+}
+
+.gallery {
+    margin: 10px 20px auto;
+    display: grid;
+    grid-template-columns: repeat(8, 200px);
+    grid-template-rows: (7, 4vw);
+    grid-gap: 15px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+   
+}
+
+#banner-golden {
+    text-align: center;
+    margin: 05px auto;
+}
+
+.racao-golden {
+    width: 190px;
+}
+
+.racao-premier {
+    width: 160px;
+}
+
+.racao-pro {
+    width: 180px;
+}
+.racao-royal {
+    width: 160px;
+}
+
+.racao-magnus {
+    width: 180px;
+}
+
+.racao-formula {
+    width: 200px;
+}
+
+.racao-pedigree {
+    width: 300px;
+}
+
+.racao-gran {
+    width: 300px;
+}
+
+#campanha-adocao > img {
+    margin: 20px auto 90px auto ;
+    width: 1000px;
+    display: block;
+}
+
+#campanha-adocao > p {
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    width: 1600px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#campanha-adocao > p > a {
+    text-decoration: none;
+    color: #62a7df;
+}
+
+#recomendacao-marcas {
+    width: 900px;
+    justify-content: center;
+    margin: auto;
+}
+
+.logo-purina {
+    width: 200px;
+}
+
+.logo-pedigree {
+    width: 200px;
+}
+
+.logo-premier {
+    width: 200px;
+}
+
+.logo-whiskas {
+    width: 200px;
+}
+
+#tutorial {
+    text-align: center;
+}
+
+#tutorial > p > a {
+    text-decoration: none;
+    color: #62a7df;
+}
+
+.video {
+    margin: 20px auto;
+    width: 500px;
+}
+
+#form {
+   width: 300px;
+   margin: 40px auto;
+}
+
+footer {
+        width: 1900px;
+        text-align: center;
+        background-color: #D4E5F3;
+        padding: 10px;
+        margin-top: 30px;
+        bottom: 0;
+        position: fixed;
+    }
